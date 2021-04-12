@@ -1,4 +1,6 @@
-# New Project
+![poster](./poster.png)
+
+# newsapp
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
