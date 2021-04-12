@@ -1,0 +1,106 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": "Will Weissert",
+      "title": "Biden Republicans? Some in GOP open to president's agenda",
+      "description": "RALEIGH, N.C. (AP) — Jay Copan doesn't hide his disregard for the modern Republican Party. A solid Republican voter for the past four decades, the 69-year-old quickly regretted casting his...",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMidWh0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL2pvZS1iaWRlbi1kb25hbGQtdHJ1bXAtYXAtdG9wLW5ld3MtcmFsZWlnaC1ub3J0aC1jYXJvbGluYS03ODU4MDUwMzc0YzI0NDIzOTU3OGYwMDc0NWJhNDQ1MNIBAA?oc=5",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/76ff14c1d2b34e4d90a8727cbc07294d/3000.jpeg",
+      "publishedAt": "2021-04-12T05:20:29+00:00",
+      "content": "RALEIGH, N.C. (AP) Jay Copan doesnt hide his disregard for the modern Republican Party.\r\nA solid Republican voter for the past four decades, the 69-year-old quickly regretted casting his 2016 ballot … [+5764 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": "Fox News",
+      "title": "LIVE UPDATES: Prosecutors in Derek Chauvin trial may rest their case within days",
+      "description": "The murder trial of former Minneapolis police Officer Derek Chauvin is set to resume on Monday.",
+      "url": "https://www.foxnews.com/us/live-updates-prosecutors-in-derek-chauvin-trial-may-soon-rest-case",
+      "urlToImage": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/91ef2a92-8191-4b60-9126-738a2e293450/56c28e71-2b48-444d-8274-7dffa894ac29/1280x720/match/image.jpg",
+      "publishedAt": "2021-04-12T05:01:44+00:00",
+      "content": "Prosecutors in Derek Chauvins murder trial could be days away from resting their case after dramatic testimony on Friday from Minnesotas chief medical examiner who conducted the autopsy on George Flo… [+1169 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": "Associated Press",
+      "title": "Minnesota police fatally shoot man after traffic stop incident, sparking protests near the scene",
+      "description": "The family of a 20-year-old Minnesota man told a crowd that he was shot by police Sunday before getting back into his car and driving away, then crashing the vehicle several blocks away. The family of Daunte Wright said he was later pronounced dead. Officials…",
+      "url": "https://ktla.com/news/nationworld/minnesota-police-fatally-shoot-man-after-traffic-stop-incident-sparking-protests-near-the-scene/",
+      "urlToImage": "https://ktla.com/wp-content/uploads/sites/4/2021/04/AP21102121970233.jpg?w=1280",
+      "publishedAt": "2021-04-12T03:55:57+00:00",
+      "content": "The family of a 20-year-old Minnesota man told a crowd that he was shot by police Sunday before getting back into his car and driving away, then crashing the vehicle several blocks away. The family o… [+3193 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": "Tim Stelloh",
+      "title": "Woman claiming to be Harry Potter accused in hit-and-run death of federal judge",
+      "description": "A Florida woman who claimed she was Harry Potter was charged Saturday in a hit-and-run crash that left a former federal judge dead and a six-year-old boy injured, authorities said.",
+      "url": "https://www.nbcnews.com/news/us-news/woman-claiming-be-harry-potter-accused-hit-run-death-federal-n1263786",
+      "urlToImage": "https://media4.s-nbcnews.com/j/newscms/2019_01/2705191/nbc-social-default_b6fa4fef0d31ca7e8bc7ff6d117ca9f4.nbcnews-fp-1200-630.png",
+      "publishedAt": "2021-04-12T03:13:00+00:00",
+      "content": "A Florida woman who claimed she was Harry Potter has been arrested in connection with a hit-and-run crash that killed a federal judge and injured a six-year-old boy, authorities said.\r\nNatasia Snape,… [+1552 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": "Laura Barrón-López",
+      "title": "Biden White House puts its police oversight commission on ice",
+      "description": "The president promised one during his campaign. But civil rights groups and police union reps both said it wasn’t necessary.",
+      "url": "https://www.politico.com/news/2021/04/11/biden-police-oversight-commission-480931",
+      "urlToImage": "https://static.politico.com/22/6c/e8c7a90a42398e77f1d7b9d4b22c/gettyimages-1230800786-c.jpg",
+      "publishedAt": "2021-04-12T02:36:44+00:00",
+      "content": "Rice said that the administration strongly supports the police reform bill named after Floyd, who was killed last May after Minneapolis police officer Derek Chauvin pinned his knee to Floyds neck for… [+5015 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": "Gabby Orr, Dana Bash and Kevin Liptak, CNN",
+      "title": "Embattled Florida Rep. Matt Gaetz is denied a meeting with Trump",
+      "description": "Rep. Matt Gaetz, who's facing a federal investigation into sex trafficking allegations, was recently denied a meeting with Donald Trump at his Mar-a-Lago estate as the ex-President and his allies continue to distance themselves from the Florida congressman.",
+      "url": "https://www.cnn.com/2021/04/11/politics/matt-gaetz-donald-trump-denied-meeting/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210331140547-01-matt-gaetz-file-2020-super-tease.jpg",
+      "publishedAt": "2021-04-12T01:58:00+00:00",
+      "content": "Rep. Matt Gaetz, who's facing a federal investigation into sex trafficking allegations, was recently denied a meeting with Donald Trump at his Mar-a-Lago estate as the ex-President and his allies con… [+57 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": "Mychael Schnell",
+      "title": "Virginia governor orders investigation after police pepper-sprayed Army officer during traffic stop | TheHill",
+      "description": "Virginia Gov. Ralph Northam (D) ...",
+      "url": "https://thehill.com/homenews/state-watch/547619-virginia-governor-orders-investigation-after-police-pepper-sprayed-army",
+      "urlToImage": "https://thehill.com/sites/default/files/armyofficerarrest_040921screenshot.jpg",
+      "publishedAt": "2021-04-12T01:43:56+00:00",
+      "content": "Virginia Gov. Ralph Northam (D) announced on Sunday that he is directing the Virginia State Police to conduct an independent investigation into a December traffic stop that ended with two Windsor pol… [+2415 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": "Christina Zhao",
+      "title": "Cops Shut Down 'White Lives Matter' Rally in Huntington Beach That Turned Violent In 90 Minutes",
+      "description": "Black Lives Matter counter-protesters far outnumbered the white nationalists that gathered near Huntington Beach pier for the rally.",
+      "url": "https://www.newsweek.com/cops-shut-down-white-lives-matter-rally-huntington-beach-that-turned-violent-90-minutes-1582751",
+      "urlToImage": "https://d.newsweek.com/en/full/1775639/huntington-beach-white-lives-matter-rally.jpg",
+      "publishedAt": "2021-04-12T01:10:09+00:00",
+      "content": "Police in Huntington Beach, California shut down an organized so-called \"White Lives Matter\" rally within 90 minutes on Sunday afternoon after a few attendees violently clashed with counter-protester… [+3065 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": null,
+      "title": "Iran calls blackout at atomic facility \"nuclear terrorism\"",
+      "description": "While there was no immediate claim of responsibility, suspicion fell immediately on Israel.",
+      "url": "https://www.cbsnews.com/news/iran-nuclear-facility-blackout/",
+      "urlToImage": "https://cbsnews2.cbsistatic.com/hub/i/r/2021/04/11/aa02de59-f98c-4e5a-996f-79a35a67a68b/thumbnail/1200x630/151a823b4e1fc2971af4e14a0b5d3034/gettyimages-1232227032.jpg",
+      "publishedAt": "2021-04-11T23:44:54+00:00",
+      "content": "Iran on Sunday described a blackout at its underground Natanz atomic facility an act of \"nuclear terrorism,\" raising regional tensions as world powers and Tehran continue to negotiate over its tatter… [+6454 chars]"
+    },
+    {
+      "source": { "id": "google-news", "name": "Google News" },
+      "author": null,
+      "title": "Police: Woman suspected of killing her 3 young children in Los Angeles",
+      "description": "The mother of three children — all under the age of 5 — found slain inside a Los Angeles apartment has been arrested, police said.",
+      "url": "https://www.wcvb.com/article/police-woman-suspected-of-killing-her-3-young-children-in-los-angeles/36088249",
+      "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/hypatia-h-fbe13cca7bd32b5b9ad758e38b2cd431-h-c8566cd6aefe86bb8a14ccbdf95bb28d-1618172453.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+      "publishedAt": "2021-04-11T20:33:00+00:00",
+      "content": "LOS ANGELES (Video above from KABC-TV via CNN) —A Los Angeles woman suspected of killing her three young children, all under 5 years of age, is now in custody police said Saturday. \r\nLiliana Carrillo… [+1709 chars]"
+    }
+  ]
+}
