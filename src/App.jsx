@@ -6,6 +6,7 @@ import {
   Button,
   Heading,
   Link,
+  Text,
   Stack,
   useColorMode,
 } from "@chakra-ui/react";
@@ -43,8 +44,16 @@ function App() {
         >
           Headlines
         </Heading>
-        {status === "error" && <p>Error fetching bews</p>}
-        {status === "loading" && <p>Fetching news...</p>}
+        {status === "error" && (
+          <Text color={colorMode === "light" ? "gray.800" : "gray.200"}>
+            Error fetching bews
+          </Text>
+        )}
+        {status === "loading" && (
+          <Text color={colorMode === "light" ? "gray.800" : "gray.200"}>
+            Fetching news...
+          </Text>
+        )}
         {status === "success" && (
           <Stack spacing="5">
             {data.articles.map((news) => (
