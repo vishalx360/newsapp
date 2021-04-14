@@ -7,7 +7,6 @@ import React, { useState, useEffect } from "react";
 
 export default function News({ data }) {
   const { colorMode, toggleColorMode } = useColorMode();
-  console.log(colorMode);
   return (
     <Stack
       direction="row"

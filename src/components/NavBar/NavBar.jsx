@@ -16,6 +16,7 @@ export default function NavBar() {
       left="0"
       shadow="md"
       borderRadius="0 0 10px 0"
+      zIndex="5"
     >
       <Text fontSize="1.2em">newsapp</Text>
     </Stack>

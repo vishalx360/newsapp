@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useQuery } from "react-query";
 import "./App.css";
+import { nanoid } from "nanoid";
 import {
   Box,
   Button,
@@ -12,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import News from "./components/news/News";
 import NavBar from "./components/NavBar/NavBar";
+import Hero from "./components/Hero/Hero";
 
 // vars
 const API_KEY = "bbbecd9c85ec4499aacda1d1dc1e7ba2";
@@ -24,7 +26,9 @@ const fetchNews = async () => {
 };
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
-  const { data, status } = useQuery("headline", fetchNews);
+  const { data, status } = useQuery("headline", fetchNews, {
+    refetchOnWindowFocus: false,
+  });
   return (
     <>
       <NavBar />
@@ -37,6 +41,7 @@ function App() {
         bg={colorMode === "light" ? "gray.100" : "gray.800"}
         className="App"
       >
+        <Hero />
         <Heading
           my="5"
           mt={[25, 5, 5, 5]}
@@ -57,7 +62,7 @@ function App() {
         {status === "success" && (
           <Stack spacing="5">
             {data.articles.map((news) => (
-              <News data={news} />
+              <News key={nanoid(5)} data={news} />
             ))}
           </Stack>
         )}
