@@ -23,15 +23,16 @@ export default function News({ data }) {
       _hover={{ transform: "translate(0px,-3px)", shadow: "md" }}
       p="5"
     >
-      <Image
-        rounded="md"
-        boxSize={["80px", "100px", "150px", "150px"]}
-        display="block"
-        objectFit="cover"
-        src={data.urlToImage}
-        mr="2"
-      />
-
+      {data.image_url && (
+        <Image
+          rounded="md"
+          boxSize={["80px", "100px", "150px", "150px"]}
+          display="block"
+          objectFit="cover"
+          src={data.image_url}
+          mr="2"
+        />
+      )}
       <Box
         color={colorMode === "light" ? "gray.800" : "gray.200"}
         textAlign="start"
@@ -41,14 +42,14 @@ export default function News({ data }) {
         </Heading>
         {data.author && (
           <Badge colorScheme="green" p="1" mt="2" variant="subtle">
-            {data.author}
+            {data.creator}
           </Badge>
         )}
 
         <Text noOfLines={[1, 2, 3, 4]} my="2" fontSize="md">
           {data.description}
         </Text>
-        <Link color="green.300" href={data.url} isExternal>
+        <Link color="green.300" href={data.link} isExternal>
           Read More <ExternalLinkIcon mx="2px" />
         </Link>
       </Box>

@@ -11,7 +11,7 @@ export default function NavBar() {
       px="5"
       h="10"
       bg="green.500"
-      position="absolute"
+      position="fixed"
       top="0"
       left="0"
       shadow="md"

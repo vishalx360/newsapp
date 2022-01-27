@@ -35,9 +35,6 @@ function Hero() {
         <Text color="gray.100" fontSize="1.2em" my="5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, fuga.
         </Text>
-        <Link color="gray.100" href="#" isExternal>
-          Read More <ExternalLinkIcon mx="2px" />
-        </Link>
       </Box>
     </Box>
   );

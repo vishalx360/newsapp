@@ -16,12 +16,10 @@ import NavBar from "./components/NavBar/NavBar";
 import Hero from "./components/Hero/Hero";
 
 // vars
-const API_KEY = "bbbecd9c85ec4499aacda1d1dc1e7ba2";
+const API_KEY = "pub_404869503e6dd76590f1382dc4c6150c457d";
 // fetch
 const fetchNews = async () => {
-  const res = await fetch(
-    `https://newsapi.org/v2/top-headlines?sources=google-news&apiKey=${API_KEY}`
-  );
+  const res = await fetch(`https://newsdata.io/api/1/news?apiKey=${API_KEY}`);
   return res.json();
 };
 function App() {
@@ -61,7 +59,7 @@ function App() {
         )}
         {status === "success" && (
           <Stack spacing="5">
-            {data.articles.map((news) => (
+            {data.results.map((news) => (
               <News key={nanoid(5)} data={news} />
             ))}
           </Stack>
