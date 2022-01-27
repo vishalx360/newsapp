@@ -9,11 +9,12 @@ export default function NavBar() {
     px: "5",
     h: "10",
     bg: "green.500",
-    position: "absolute",
+    position: "fixed",
     top: "0",
     left: "0",
     shadow: "md",
-    borderRadius: "0 0 10px 0"
+    borderRadius: "0 0 10px 0",
+    zIndex: "5"
   }, /* @__PURE__ */ React.createElement(Text, {
     fontSize: "1.2em"
   }, "newsapp"));

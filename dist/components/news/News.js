@@ -5,7 +5,6 @@ import {Badge, Box, Heading, Link, Stack, Text} from "../../../_snowpack/pkg/@ch
 import React, {useState, useEffect} from "../../../_snowpack/pkg/react.js";
 export default function News({data}) {
   const {colorMode, toggleColorMode} = useColorMode();
-  console.log(colorMode);
   return /* @__PURE__ */ React.createElement(Stack, {
     direction: "row",
     alignContent: "center",
@@ -19,12 +18,12 @@ export default function News({data}) {
     transitionDuration: "0.2s",
     _hover: {transform: "translate(0px,-3px)", shadow: "md"},
     p: "5"
-  }, /* @__PURE__ */ React.createElement(Image, {
+  }, data.image_url && /* @__PURE__ */ React.createElement(Image, {
     rounded: "md",
     boxSize: ["80px", "100px", "150px", "150px"],
     display: "block",
     objectFit: "cover",
-    src: data.urlToImage,
+    src: data.image_url,
     mr: "2"
   }), /* @__PURE__ */ React.createElement(Box, {
     color: colorMode === "light" ? "gray.800" : "gray.200",
@@ -37,13 +36,13 @@ export default function News({data}) {
     p: "1",
     mt: "2",
     variant: "subtle"
-  }, data.author), /* @__PURE__ */ React.createElement(Text, {
+  }, data.creator), /* @__PURE__ */ React.createElement(Text, {
     noOfLines: [1, 2, 3, 4],
     my: "2",
     fontSize: "md"
   }, data.description), /* @__PURE__ */ React.createElement(Link, {
     color: "green.300",
-    href: data.url,
+    href: data.link,
     isExternal: true
   }, "Read More ", /* @__PURE__ */ React.createElement(ExternalLinkIcon, {
     mx: "2px"

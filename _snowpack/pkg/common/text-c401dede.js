@@ -1,5 +1,5 @@
 import { r as react, c as createCommonjsModule } from './index-210ebed7.js';
-import { d as isArray, e as isObject, g as objectKeys, h as fromEntries, j as isNumber, n as noop, i as isBrowser, p as pick, k as isCssVar, w as withEmotionCache, s as serializeStyles, T as ThemeContext, S as StyleSheet, l as insertStyles, m as ThemeProvider$1, r as runIfFn, q as lodash_mergewith, t as memoizedGet, u as filterUndefined, o as omit, a as chakra, f as forwardRef, b as omitThemingProps, c as cx } from './forward-ref-7c7cf6af.js';
+import { b as isArray, d as isObject, e as objectKeys, g as fromEntries, h as isNumber, n as noop, i as isBrowser, p as pick, j as isCssVar, w as withEmotionCache, s as serializeStyles, T as ThemeContext, S as StyleSheet, k as insertStyles, l as ThemeProvider$1, r as runIfFn, m as lodash_mergewith, q as memoizedGet, t as filterUndefined, o as omit, f as forwardRef, u as omitThemingProps, a as chakra, c as cx } from './forward-ref-10d42b89.js';
 
 function getLastItem(array) {
   var length = array == null ? 0 : array.length;
@@ -366,9 +366,9 @@ function ColorModeProvider(props) {
   }, children);
 }
 
-function _extends$5() { _extends$5 = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends$5.apply(this, arguments); }
+function _extends$6() { _extends$6 = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends$6.apply(this, arguments); }
 
-function _objectWithoutPropertiesLoose$5(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+function _objectWithoutPropertiesLoose$6(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
 var replaceWhiteSpace = function replaceWhiteSpace(value, replaceValue) {
   if (replaceValue === void 0) {
@@ -402,7 +402,7 @@ function extractTokens(theme) {
 }
 
 function omitVars(rawTheme) {
-  var cleanTheme = _objectWithoutPropertiesLoose$5(rawTheme, ["__cssMap", "__cssVars", "__breakpoints"]);
+  var cleanTheme = _objectWithoutPropertiesLoose$6(rawTheme, ["__cssMap", "__cssVars", "__breakpoints"]);
 
   return cleanTheme;
 }
@@ -461,7 +461,7 @@ function toCSSVar(rawTheme) {
     "--chakra-space-y-reverse": "0"
   };
   Object.assign(theme, {
-    __cssVars: _extends$5({}, defaultCssVars, cssVars),
+    __cssVars: _extends$6({}, defaultCssVars, cssVars),
     __cssMap: cssMap,
     __breakpoints: analyzeBreakpoints(theme.breakpoints)
   });
@@ -474,8 +474,8 @@ function toProperties(target, options, initialContext, prefixes) {
   }
 
   var context = {
-    cssMap: _extends$5({}, initialContext == null ? void 0 : initialContext.cssMap),
-    cssVars: _extends$5({}, initialContext == null ? void 0 : initialContext.cssVars)
+    cssMap: _extends$6({}, initialContext == null ? void 0 : initialContext.cssMap),
+    cssVars: _extends$6({}, initialContext == null ? void 0 : initialContext.cssVars)
   };
   return Object.entries(target).reduce((properties, _ref) => {
     var [key, value] = _ref;
@@ -518,7 +518,7 @@ var tokenHandlerMap = {
     var varRef = toNegativeVar(toVarReference(cssVar));
     return {
       cssVars: properties.cssVars,
-      cssMap: _extends$5({}, properties.cssMap, {
+      cssMap: _extends$6({}, properties.cssMap, {
         [negativeLookupKey]: {
           value: negativeValue,
           var: cssVar,
@@ -903,16 +903,16 @@ createContext({
   errorMessage: "useStyles: `styles` is undefined. Seems you forgot to wrap the components in `<StylesProvider />` "
 });
 
-function _extends$4() { _extends$4 = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends$4.apply(this, arguments); }
+function _extends$5() { _extends$5 = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends$5.apply(this, arguments); }
 function useChakra() {
   var colorModeResult = useColorMode();
   var theme = useTheme();
-  return _extends$4({}, colorModeResult, {
+  return _extends$5({}, colorModeResult, {
     theme
   });
 }
 
-function _objectWithoutPropertiesLoose$4(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+function _objectWithoutPropertiesLoose$5(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 function useStyleConfig(themeKey, props, opts) {
   var _styleConfig$defaultP, _opts2;
 
@@ -927,7 +927,7 @@ function useStyleConfig(themeKey, props, opts) {
   var {
     styleConfig: styleConfigProp
   } = props,
-      rest = _objectWithoutPropertiesLoose$4(props, ["styleConfig"]);
+      rest = _objectWithoutPropertiesLoose$5(props, ["styleConfig"]);
 
   var {
     theme,
@@ -971,6 +971,34 @@ function useStyleConfig(themeKey, props, opts) {
     return stylesRef.current;
   }, [styleConfig, mergedProps, (_opts2 = opts) == null ? void 0 : _opts2.isMultiPart]);
 }
+
+function _extends$4() { _extends$4 = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends$4.apply(this, arguments); }
+
+function _objectWithoutPropertiesLoose$4(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+/**
+ * React component used to display notifications, messages, or
+ * statuses in different shapes and sizes.
+ *
+ * @see Docs https://chakra-ui.com/docs/data-display/badge
+ */
+var Badge = /*#__PURE__*/forwardRef((props, ref) => {
+  var styles = useStyleConfig("Badge", props);
+
+  var _omitThemingProps = omitThemingProps(props),
+      rest = _objectWithoutPropertiesLoose$4(_omitThemingProps, ["className"]);
+
+  return /*#__PURE__*/react.createElement(chakra.span, _extends$4({
+    ref: ref,
+    className: cx("chakra-badge", props.className)
+  }, rest, {
+    __css: _extends$4({
+      display: "inline-block",
+      whiteSpace: "nowrap",
+      verticalAlign: "middle"
+    }, styles)
+  }));
+});
 
 /**
  * Box is the most abstract component on top of which other chakra
@@ -1227,4 +1255,4 @@ var Text = /*#__PURE__*/forwardRef((props, ref) => {
   }));
 });
 
-export { Box as B, ColorModeProvider as C, Global as G, Heading as H, Link as L, Stack as S, Text as T, useColorMode as a, ThemeProvider as b, createContext as c, keyframes as k, useStyleConfig as u };
+export { Box as B, ColorModeProvider as C, Global as G, Heading as H, Link as L, Stack as S, Text as T, Badge as a, useColorMode as b, createContext as c, ThemeProvider as d, keyframes as k, useStyleConfig as u };
