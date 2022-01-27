@@ -19,7 +19,9 @@ import Hero from "./components/Hero/Hero";
 const API_KEY = "pub_404869503e6dd76590f1382dc4c6150c457d";
 // fetch
 const fetchNews = async () => {
-  const res = await fetch(`https://newsdata.io/api/1/news?apiKey=${API_KEY}`);
+  const res = await fetch(
+    `https://newsdata.io/api/1/news?apiKey=${API_KEY}&language=en&country=in`
+  );
   return res.json();
 };
 function App() {
@@ -39,7 +41,7 @@ function App() {
         bg={colorMode === "light" ? "gray.100" : "gray.800"}
         className="App"
       >
-        <Hero />
+        {/* <Hero /> */}
         <Heading
           my="5"
           mt={[25, 5, 5, 5]}
